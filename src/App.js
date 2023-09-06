@@ -1,4 +1,4 @@
-function App(props) {
+/* function App(props) {
     const colorStyle = {
         color: props.color,
         fontSize: props.size + "px",
@@ -6,6 +6,19 @@ function App(props) {
     return (
         <div>
             <div style={colorStyle}>Hello World!</div>
+        </div>
+    );
+}
+
+export default App;
+ */
+import React from "react";
+import MainPanel from "./components/MainPanel";
+
+function App() {
+    return (
+        <div>
+            <MainPanel />
         </div>
     );
 }
